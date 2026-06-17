@@ -21,7 +21,7 @@ const app = express();
 const corsOptions = {
   origin: function (origin: any, callback: any) {
     const allowedOrigins = [
-      "https://drauto24.com", // pour la production
+      "https://plagix.pole-g.org", // pour la production
       "http://localhost:3000", // pour la production
     ];
 
