@@ -8,7 +8,7 @@
     "migrate:manual": "node --import tsx prisma/manual-insertion.ts",
     "copy:assets": "echo 'no assets indicated for copy' ",
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "node dist/src/index.js",
     "dev": "nodemon --exec tsx src/index.ts"
   },
   "keywords": [],
