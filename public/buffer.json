@@ -1,438 +1,504 @@
 {
   "query": "afrique",
-  "currentStart": 1,
+  "currentStart": 100,
   "thesesLeft": [
     {
-      "title": "La réorientation de la coopération italienne au développement envers l'Afrique entre nouvelle vision et vieux schémas",
-      "author": "Angrisani, Carmen",
+      "title": "Capital humain des femmes et utilisation de la biomasse verte : évidence de l'Afrique subsaharienne",
+      "author": "Ouoba, Yienouyaba Gaetan",
+      "university": "Université Laval",
+      "sourceUrl": "http://hdl.handle.net/20.500.11794/68419"
+    },
+    {
+      "title": "A islamização na África ocidental : o caso dos mandingas e fulas na Guiné-Bissau (Séculos XVIII-XIX)",
+      "author": "Cá Júnior, Domingos Mula",
+      "university": "Universidade do Rio Grande do Sul",
+      "sourceUrl": "http://hdl.handle.net/10183/231651"
+    },
+    {
+      "title": "Sédimentologie et contrôle eustatique: cas du Miocène, Tunisie centre Nord",
+      "author": "Belghithi, Hanen",
+      "university": "Université de Liège",
+      "sourceUrl": "https://orbi.uliege.be/handle/2268/208971"
+    },
+    {
+      "title": "Principaux obstacles à la décision d’investissement des firmes en Afrique",
+      "author": "Youmbi, Michel Etienne",
+      "university": "Université de Montréal",
+      "sourceUrl": "http://hdl.handle.net/1866/16216"
+    },
+    {
+      "title": "Les entreprises françaises et la commande publique en Afrique : French companies and public procurement in Africa",
+      "author": "Perichon, Lukas",
+      "university": "Université Paris-Saclay (ComUE)",
+      "sourceUrl": "https://theses.fr/2019SACLS364;"
+    },
+    {
+      "title": "Portugal em África: continuidades e rupturas na colonização de Moçambique (1875-1926): Portugal en Afrique: continuités et ruptures de la colonisation au Mozambique (1875-1926)",
+      "author": "Sampaio, Thiago Henrique [UNESP]",
+      "university": "Universidade Estadual Paulista",
+      "sourceUrl": "http://hdl.handle.net/11449/157137"
+    },
+    {
+      "title": "Les artisans en Afrique romaine d'après les sources épigraphiques et littéraires. : crafts of Roman Africa in the epigraphic and litérary sources",
+      "author": "Nebti, Lazhar",
+      "university": "Université Paul Valéry – Montpellier III",
+      "sourceUrl": "https://theses.fr/2018MON30010;"
+    },
+    {
+      "title": "Le rapport au développement du pays d'origine dans les trajectoires migratoires étudiantes : approches des stratégies migratoires de sept étudiants d'Afrique de l'Ouest à Montréal",
+      "author": "Semenoff, Matthieu",
       "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/11829/1/M15680.pdf"
+      "sourceUrl": "http://archipel.uqam.ca/13212/1/M16173.pdf"
     },
     {
-      "title": "La coopération de l'Afrique avec les pays \"BRICS\" : une troisième voie pour le développement de l'Afrique?",
-      "author": "Touré, Fodé Saliou",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/5608/1/M12878.pdf"
+      "title": "A Francofonia e a difusão de políticas educativas no Programa KIX Afrique 21: um olhar pós-colonial",
+      "author": "Alves, Inês de Sá",
+      "university": "Universidade de Coimbra",
+      "sourceUrl": "http://hdl.handle.net/10316/121381"
     },
     {
-      "title": "Les nouvelles menaces sécuritaires et la construction de l'intégration régionale en Afrique centrale",
-      "author": "Ndjoke Ndombi, Suzanne Thérèse",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/19531/1/M19322.pdf"
+      "title": "L’Afrique dans le monde, le monde depuis l’Afrique : études croisées des œuvres d’Alain Mabanckou, d'Achille Mbembe, de Léonora Miano, de Célestin Monga et de Fatou Diome : Africa in the world, the world from Africa : crossover studies of the works of Alain Mabanckou, Achille Mbembe, Léonora Miano, Célestin Monga and and Fatou Diome",
+      "author": "Koumba, Rolph Roderick",
+      "university": "Université de Lille (2018-2021)",
+      "sourceUrl": "https://theses.fr/2019LILUH008;"
     },
     {
-      "title": "L'accès inégalitaire des femmes à la propriété foncière en république du Bénin :   mise en perspective du décalage entre droit étatique et droit coutumier",
-      "author": "Djima Radji, Asmaou A.A.A",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/15841/1/M17704.pdf"
-    },
-    {
-      "title": "Sustainable Financing for Developement : Four Essays on Resource Mobilization in Africa : Financement durable du développement : quatre essais sur la mobilisation des ressources en Afrique",
-      "author": "Coulibaly, Seydou",
-      "university": "Université Clermont Auvergne‎ (2017-2020)",
-      "sourceUrl": "https://theses.fr/2019CLFAD014;"
-    },
-    {
-      "title": "Migration interne et marché du travail des non-migrants : une approche en panel instrumentée pour l'Afrique du Sud",
-      "author": "Kenmogne Simo, Elie",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/19849/1/M19512.pdf"
-    },
-    {
-      "title": "De la négritude à la migritude : une analyse sociologique de la littérature de l'Afrique francophone",
-      "author": "Lavigne, Sophie",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/4622/1/D2143.pdf"
-    },
-    {
-      "title": "Civiliser et discipliner : la mission civilisatrice et la culture militaire coloniale lors de la guerre du Bani-Volta (1885-1919)",
-      "author": "Vennes, Thomas",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/14977/1/M16920.pdf"
-    },
-    {
-      "title": "Les énergies renouvelables et le développement durable en Afrique : Renewable energies and sustainable development in Africa",
-      "author": "Mogode Mbaïbedje, Nadine",
-      "university": "Université d'Orléans",
-      "sourceUrl": "https://theses.fr/2022ORLE1037;"
-    },
-    {
-      "title": "Les publicités des ONG et la perpétuation des stéréotypes à propos de l'Afrique",
-      "author": "Bordeleau, Benoît",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://www.archipel.uqam.ca/2239/1/M10803.pdf"
-    },
-    {
-      "title": "Incidence des politiques migratoires de l'Union européenne sur la gestion migratoire en Afrique de l'Ouest : le cas de la politique étrangère espagnole au Sénégal",
-      "author": "Coderre-Proulx, Mylène",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://www.archipel.uqam.ca/5796/1/M13094.pdf"
-    },
-    {
-      "title": "Les publicités des ONG et la perpétuation des stéréotypes à propos de l'Afrique",
-      "author": "Bordeleau, Benoît",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/2239/1/M10803.pdf"
-    },
-    {
-      "title": "Incidence des politiques migratoires de l'Union européenne sur la gestion migratoire en Afrique de l'Ouest : le cas de la politique étrangère espagnole au Sénégal",
-      "author": "Coderre-Proulx, Mylène",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/5796/1/M13094.pdf"
-    },
-    {
-      "title": "Pérennité des résultats des projets de développement en Afrique subsaharienne : influence du contexte",
-      "author": "Akplogan, Aurore Lidwine Senah",
-      "university": "Université du Québec à Chicoutimi",
-      "sourceUrl": "https://constellation.uqac.ca/id/eprint/9949/1/Akplogan_uqac_0862N_11197.pdf"
-    },
-    {
-      "title": "Analyse de l'impact de l'aide soviétique à l'African National Congress (ANC) entre 1976 et 1991",
-      "author": "Barkan, Robert",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/18535/1/m18885.pdf"
-    },
-    {
-      "title": "La coopération chinoise et le développement en Afrique subsaharienne :opportunités ou impacts?",
-      "author": "Ngono, Lucie",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://www.archipel.uqam.ca/9345/1/M14805.pdf"
-    },
-    {
-      "title": "Les rapatriements prématurés en Afrique : une menace à la protection des réfugiés",
-      "author": "Bourassa, Marie-Paule",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://www.archipel.uqam.ca/1692/1/M10656.pdf"
-    },
-    {
-      "title": "La coopération chinoise et le développement en Afrique subsaharienne :opportunités ou impacts?",
-      "author": "Ngono, Lucie",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/9345/1/M14805.pdf"
-    },
-    {
-      "title": "Revue systématique sur le financement des PME dans le secteur de la restauration en Afrique subsaharienne",
-      "author": "Bini, Abdoul Rahim",
-      "university": "Université du Québec à Chicoutimi",
-      "sourceUrl": "https://constellation.uqac.ca/id/eprint/7903/1/Bini_uqac_0862N_10823.pdf"
-    },
-    {
-      "title": "Usage des médias sociaux et pratiques informationnelles : impact de la Radio France Internationale RFI-Afrique/Facebook sur la participation citoyenne; le cas de l’élection présidentielle du 30 décembre 2018 en République démocratique du Congo",
-      "author": "Kazadi, Claude Lubatshi",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/18637/1/M18940.pdf"
-    },
-    {
-      "title": "Stratégies de modernisation des religions traditionnelles africaines : entre ancestralité et christianisme dans le Sud-Kivu (RDC)",
-      "author": "Moguet, Kamalebo Mogelwa",
-      "university": "Figshare",
-      "sourceUrl": "http://hdl.handle.net/10.6084/m9.figshare.29974255.v3"
-    },
-    {
-      "title": "Choc des prix du pétrole et croissance économique des BRICS (Brésil, Russie, Chine, Afrique du Sud",
-      "author": "Ayi-Yovo, Kangni",
-      "university": "Université de Sherbrooke",
-      "sourceUrl": "http://hdl.handle.net/11143/16789"
-    },
-    {
-      "title": "Entrepreneuriat des femmes en Afrique : exploration de l'accès au financement et de la formation",
-      "author": "Djiofack Tsague, Josiane",
-      "university": "Université de Sherbrooke",
-      "sourceUrl": "http://hdl.handle.net/11143/20336"
-    },
-    {
-      "title": "Model estimations of possible climate changes of surface solar radiation at regional scales over Southern Africa and the South West Indian Ocean : Modélisation régionale du climat et estimations des changements climatiques possibles du rayonnement en surface dans le sud-ouest de l'océan Indien",
-      "author": "Tang, Chao",
-      "university": "Université de la Réunion",
-      "sourceUrl": "https://theses.fr/2017LARE0055;"
-    },
-    {
-      "title": "Les enfants-soldats et la justice transitionnelle : les impératifs d'imputabilité face à l'intérêt supérieur de l'enfant",
-      "author": "Bolduc, Karine",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://www.archipel.uqam.ca/3966/1/M11981.pdf"
-    },
-    {
-      "title": "Les enfants-soldats et la justice transitionnelle : les impératifs d'imputabilité face à l'intérêt supérieur de l'enfant",
-      "author": "Bolduc, Karine",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/3966/1/M11981.pdf"
-    },
-    {
-      "title": "L'État contemporain au Mali : genèse et mutation de la crise",
-      "author": "Sanogo, Bougadari",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/12562/1/M16002.pdf"
-    },
-    {
-      "title": "Le rôle du contrôle de gestion dans l'évaluation de la performance des entreprises en Afrique subsaharienne : cas du Burkina Faso",
-      "author": "Yaone, Imranou",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/18181/1/M16764.pdf"
-    },
-    {
-      "title": "Défis de la prise en charge du VIH en Afrique de l'Ouest à l'ère du traitement pour tou.te.s : analyses épidémiologiques du continuum de soins et des évènements de santé, avec une perspective de genre : Challenges of HIV care in West Africa in the treat all era : epidemiological analysis of the cascade of care and health outcomes, with a gender perspective",
-      "author": "Tiendrebeogo, Kiswend-Sida",
-      "university": "Université de Bordeaux",
-      "sourceUrl": "https://theses.fr/2023BORD0506;"
-    },
-    {
-      "title": "Projet COOP.Coopérative agricole dans le \"township\" de Walmer à Port Elizabeth (Afrique du Sud)",
-      "author": "Lacroix, Mélanie",
-      "university": "EPFL",
-      "sourceUrl": "https://infoscience.epfl.ch/handle/20.500.14299/163040"
-    },
-    {
-      "title": "Three Essays in Agricultural and Family Economics in Sub-Saharan Africa : Trois Essais en Économie Agricole et Familiale en Afrique Sub-Saharienne",
-      "author": "Cordonnier, Victor",
-      "university": "Paris, EHESS",
-      "sourceUrl": "https://theses.fr/2023EHES0152;"
-    },
-    {
-      "title": "Analyse épidémio-génétique de la fonction rénale chez les personnes d’Afrique sub-Saharienne vivant avec le VIH : Genetic and epidemiological analysis of kidney function in people of sub-Saharan Africa living with HIV",
-      "author": "Kabore, Nongodo Firmin",
+      "title": "Estimation de l’évapotranspiration par télédétection spatiale en Afrique de l’Ouest : vers une meilleure connaissance de cette variable clé pour la région : Estimation of evapotranspiration from remote sensing in West Africa : toward a better knowledge of this key variable for the region",
+      "author": "Allies, Aubin",
       "university": "Montpellier",
-      "sourceUrl": "https://theses.fr/2019MONTT070;"
+      "sourceUrl": "https://theses.fr/2018MONTG068;"
     },
     {
-      "title": "Epidémiologie moléculaire des virus influenza aviaires et cartographie du risque au Mali et en Afrique de l'Ouest : Molecular epidemiology of avian influenza viruses and risk mapping in Mali and West Africa",
-      "author": "Sanogo, Idrissa Nonmon",
-      "university": "INP Toulouse",
-      "sourceUrl": "https://theses.fr/2023INPT0079;"
+      "title": "L'économie de bazar en Afrique de l'Ouest : les entrepreneurs libanais à Abidjan, Dakar et Ouagadougou : The bazaar economy in West Africa : the Lebanese entrepreneurs in Abidjan, Dakar and Ouagadougou",
+      "author": "El Chab, Marwa",
+      "university": "Paris, EHESS",
+      "sourceUrl": "https://theses.fr/2019EHES0018;"
     },
     {
-      "title": "Trois essais sur l'impact socio-économique du changement climatique en Afrique subsaharienne : Three essays on the socio-economic impact of climate change in sub-Saharan Africa",
-      "author": "Topeur, Beguerang",
-      "university": "Université Clermont Auvergne (2021-...)",
-      "sourceUrl": "https://theses.fr/2023UCFA0002;"
+      "title": "Constitutionnalisme et démocratie en Afrique noire francophone : le cas du Bénin, de la Côte d'Ivoire, du Mali, du Burkina Faso, du Togo et du Sénégal : Constitutionalism and Democracy in Francophone Black Africa : the Case of Benin, Côte d’Ivoire, Mali, Burkina Faso, Togo and Senegal",
+      "author": "Koffi, Kouame saint-Paul",
+      "university": "Sorbonne Paris Cité",
+      "sourceUrl": "https://theses.fr/2017USPCD044;"
     },
     {
-      "title": "Analyse écologique des points chauds de choléra en Afrique. : Ecological analysis of cholera hot spots in Africa",
-      "author": "Batumbo Boloweti, Doudou",
-      "university": "Bourgogne Franche-Comté; Université de Kinshasa",
-      "sourceUrl": "https://theses.fr/2021UBFCE031;"
+      "title": "Le diagnostic des mycobactérioses cutanées en Afrique de l'Ouest : Diagnosis of cutaneous mycobacterioses in West Africa",
+      "author": "Millogo, Anselme",
+      "university": "Montpellier",
+      "sourceUrl": "https://theses.fr/2020MONTT030;"
     },
     {
-      "title": "Les zones franches en Afrique du Nord dans le secteur du textile : impacts commerciaux et juridiques",
-      "author": "Ayadi, Walid",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://www.archipel.uqam.ca/2266/1/M10961.pdf"
-    },
-    {
-      "title": "Les enjeux du financement agricole en Afrique de l'Ouest",
-      "author": "Bessay, Stéphane",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://www.archipel.uqam.ca/2551/1/M11147.pdf"
-    },
-    {
-      "title": "Chine-Afrique : évolution de la coopération sino-malienne entre 1960 et 2008",
-      "author": "Sanogo, Oumou Niogho",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://www.archipel.uqam.ca/2831/1/M11325.pdf"
-    },
-    {
-      "title": "Les stades fantômes d'Afrique du Sud : état de l'usage post-événementiel et analyse de l'héritage laissé par quatre stades de la coupe du monde de football 2010",
-      "author": "Dalle-Vedove, Christine",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://www.archipel.uqam.ca/8164/1/M14026.pdf"
-    },
-    {
-      "title": "Développement des territoires ouest africains à l'ère des technologies de l'information et de la communication : l'appropriation des dispositifs de télécommunication numériques comme vecteur d'attractivité territoriale",
-      "author": "Pizon, Edouard",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://www.archipel.uqam.ca/8531/1/M14214.pdf"
-    },
-    {
-      "title": "Enjeux de communication internationale et interculturelle soulevés par la mise en œuvre d'une stratégie de gestion des contenus web du site internet d'un organisme de la société civile de la région des Grands Lacs en Afrique",
-      "author": "Lamiot, Sylvie",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://www.archipel.uqam.ca/8894/1/M14519.pdf"
-    },
-    {
-      "title": "La formulation du panafricanisme dans la pratique conventionnelle et constitutionnelle en Afrique",
-      "author": "Nomo Mvilongo, Sylvain",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://www.archipel.uqam.ca/5941/1/M13225.pdf"
-    },
-    {
-      "title": "Promouvoir l'égalité des sexes de l'autonomisation des femmes en Afrique : analyse de l'aide publique canadienne au développement",
-      "author": "Dumont, Stéphanie",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://www.archipel.uqam.ca/7796/1/M13602.pdf"
-    },
-    {
-      "title": "Changements projetés des variables hydriques pour le climat futur sur l'Afrique en utilisant le modèle régional canadien du climat version 5 (MRCC5)",
-      "author": "Boujannah, Abdellah",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://www.archipel.uqam.ca/8029/1/M14067.pdf"
-    },
-    {
-      "title": "Geochemical characterization and direct dating of rock art using radiocarbon and optically stimulated luminescence : the case study of southern Africa and the Canadian Shield",
-      "author": "Bonneau, Adelphine",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/8987/1/D3139.pdf"
-    },
-    {
-      "title": "\"Bientôt rek inch'allah\" : incursion au cœur de Manoore FM, une radio communautaire résiliente du Sénégal",
-      "author": "Jimenez, Aude",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/9570/1/D3223.pdf"
-    },
-    {
-      "title": "Les capacités d'action offertes par la décentralisation aux municipalités de taille moyenne en Afrique de l'Ouest francophone : la gouvernance et le développement local à Klouékanmè au Bénin",
-      "author": "Muambi, Nico Shambouy",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/10873/1/D3336.pdf"
-    },
-    {
-      "title": "Développement des territoires ouest africains à l'ère des technologies de l'information et de la communication : l'appropriation des dispositifs de télécommunication numériques comme vecteur d'attractivité territoriale",
-      "author": "Pizon, Edouard",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/8531/1/M14214.pdf"
-    },
-    {
-      "title": "Enjeux de communication internationale et interculturelle soulevés par la mise en œuvre d'une stratégie de gestion des contenus web du site internet d'un organisme de la société civile de la région des Grands Lacs en Afrique",
-      "author": "Lamiot, Sylvie",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/8894/1/M14519.pdf"
-    },
-    {
-      "title": "Les zones franches en Afrique du Nord dans le secteur du textile : impacts commerciaux et juridiques",
-      "author": "Ayadi, Walid",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/2266/1/M10961.pdf"
-    },
-    {
-      "title": "Les enjeux du financement agricole en Afrique de l'Ouest",
-      "author": "Bessay, Stéphane",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/2551/1/M11147.pdf"
-    },
-    {
-      "title": "Chine-Afrique : évolution de la coopération sino-malienne entre 1960 et 2008",
-      "author": "Sanogo, Oumou Niogho",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/2831/1/M11325.pdf"
-    },
-    {
-      "title": "Promouvoir l'égalité des sexes de l'autonomisation des femmes en Afrique : analyse de l'aide publique canadienne au développement",
-      "author": "Dumont, Stéphanie",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/7796/1/M13602.pdf"
-    },
-    {
-      "title": "Changements projetés des variables hydriques pour le climat futur sur l'Afrique en utilisant le modèle régional canadien du climat version 5 (MRCC5)",
-      "author": "Boujannah, Abdellah",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/8029/1/M14067.pdf"
-    },
-    {
-      "title": "La formulation du panafricanisme dans la pratique conventionnelle et constitutionnelle en Afrique",
-      "author": "Nomo Mvilongo, Sylvain",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/5941/1/M13225.pdf"
-    },
-    {
-      "title": "Les stades fantômes d'Afrique du Sud : état de l'usage post-événementiel et analyse de l'héritage laissé par quatre stades de la coupe du monde de football 2010",
-      "author": "Dalle-Vedove, Christine",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/8164/1/M14026.pdf"
-    },
-    {
-      "title": "Migrations sud-nord et inégalités de genre, expériences de femmes provenant d'Afrique de l'ouest à Montréal",
-      "author": "Abdoulkarim, Saadatou",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/17363/1/D4544.pdf"
-    },
-    {
-      "title": "Travail-famille : conciliation des rôles économiques et domestiques dans trois capitales d'Afrique de l'Ouest",
-      "author": "Kpadonou, Norbert",
-      "university": "Université Catholique de Louvain",
-      "sourceUrl": "http://hdl.handle.net/2078.1/215655"
-    },
-    {
-      "title": "Accords commerciaux régionaux et système multilatéral de l'OMC : antinomie ou discrimination positive ? Le cas de l’Union Economique Monétaire Ouest Africaine (UEMOA)",
-      "author": "Kadima - Nzuji, Madimba",
-      "university": "Université Catholique de Louvain",
-      "sourceUrl": "http://hdl.handle.net/2078.1/173746"
-    },
-    {
-      "title": "On the impacts of the GGW on the African climate and North Atlantic tropical cyclones",
-      "author": "Ingrosso, Roberto",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/19104/1/D4873.pdf"
-    },
-    {
-      "title": "Épreuves de l'immigration vécues par les couples originaires d'Afrique subsaharienne francophone",
-      "author": "Côté-Therrien, Geneviève",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/16497/1/M17961.pdf"
-    },
-    {
-      "title": "Méthodologie de réhabilitation des chaussées au point de vue technique, économique et environnemental pour l'Afrique Subsharienne",
-      "author": "Mbog Towada, Bienvenu Thierry",
-      "university": "École de technologie supérieure",
-      "sourceUrl": "https://espace.etsmtl.ca/id/eprint/1734/1/MBOG_TOWADA_Bienvenu_Thierry.pdf"
-    },
-    {
-      "title": "La mise en oeuvre du régime international du climat en Afrique de l’ouest; The implementation of the international climate regime in West Africa: Cas du Togo, du Niger et du Burkina Faso; case of Togo, Niger, Burkina Faso",
-      "author": "Abalo, Akouvi Okpè",
-      "university": "Maastricht University",
-      "sourceUrl": "https://cris.maastrichtuniversity.nl/en/publications/d95c8d9e-0739-4ca4-ad7d-3c62aa94a70a"
-    },
-    {
-      "title": "De l'héritage colonial au projet spirituel: repenser les frontières africaines pour l'unité continentale",
-      "author": "Moguet, Kamalebo Mogelwa",
-      "university": "Figshare",
-      "sourceUrl": "http://hdl.handle.net/10.6084/m9.figshare.30233686.v2"
-    },
-    {
-      "title": "L'Afrique et la civilisation hébraïque dans la Torah : approche historico-biblique et perspectives géopolitiques contemporaines",
-      "author": "Moguet, Kamalebo Mogelwa",
-      "university": "Figshare",
-      "sourceUrl": "http://hdl.handle.net/10.6084/m9.figshare.30272917.v2"
-    },
-    {
-      "title": "Une Etude de la Mondialisation en Tant qu'outil du Néocolonialisme en Afrique: Le cas du Sénégal et du Cameroun",
-      "author": "Allihien, Anault Jean",
-      "university": "University of Arizona",
-      "sourceUrl": "http://hdl.handle.net/10150/633089"
-    },
-    {
-      "title": "Accords commerciaux préférentiels et industrialisation de l’Afrique : Preferential trade agreements and Africa's industrialization",
-      "author": "Mevel-Bidaux, Simon",
-      "university": "Université de Bordeaux",
-      "sourceUrl": "https://theses.fr/2019BORD0502;"
-    },
-    {
-      "title": "La justice pénale internationale et les conflits armés en Afrique subsaharienne : contribution à l’étude du droit international pénal : International Criminal Justice and Armed Conflicts in Subsaharian Africa : contribution to the International Criminal Law Study",
-      "author": "Baldé, Saïdou",
-      "university": "Université Toulouse I – Capitole",
-      "sourceUrl": "https://theses.fr/2019TOU10014;"
-    },
-    {
-      "title": "L'alphabétisation des adultes au Burkina Faso : cas d'apprenantes en alphabétisation",
-      "author": "Tiao, Bédemè",
-      "university": "Université du Québec à Montréal",
-      "sourceUrl": "http://archipel.uqam.ca/15698/1/M17055.pdf"
-    },
-    {
-      "title": "Management de la pédagogie des compétences en Afrique subsaharienne : « une complicité indocile » enseignante : le cas dans le Primaire Catholique de Côte d’Ivoire : The teaching of skills and its management in Sub-Saharian Africa : a form of unruly complicity for teachers : a case study in catholic primary schools of the Ivory Coast Republic",
-      "author": "N'Sanman, Dago Rodrigue Narcisse",
-      "university": "Université de Strasbourg",
-      "sourceUrl": "https://theses.fr/2022STRAG037;"
-    },
-    {
-      "title": "Contribution à la connaissance du fardeau et des facteurs pronostiques du cancer du sein au Bénin et en Afrique au Sud du Sahara : Contribution to the knowledge of the burden and prognostic factors of breast cancer in Benin and sub-Saharan Africa",
-      "author": "Gnangnon, Freddy",
+      "title": "Troubles du comportement chez les sujets âgés en Afrique Centrale : Neuropsychiatric symptoms among older people in Central Africa",
+      "author": "Zohoun, Ines",
       "university": "Limoges; Université d'Abomey-Calavi UAC (Bénin)",
-      "sourceUrl": "https://theses.fr/2024LIMO0057;"
+      "sourceUrl": "https://theses.fr/2019LIMO0031;"
     },
     {
-      "title": "Constitutionnalisme et développement de la démocratie en Afrique de l'Ouest francophone : Constitutionnalism and development of democracy in Francophone West Africa",
-      "author": "Bontogo, Guétwendé Lionnel Aymard",
-      "university": "Université Clermont Auvergne (2021-...)",
-      "sourceUrl": "https://theses.fr/2024UCFA0100;"
+      "title": "La contribution de la Chine au développement économique des pays d' Afrique Sub Saharienne : China's contribution to the economic development countries of Sub Saharan Africa",
+      "author": "Eka, Fred",
+      "university": "Pau",
+      "sourceUrl": "https://theses.fr/2018PAUU2035;"
+    },
+    {
+      "title": "De la solidarité comme moyen de réparation du préjudice en Afrique à la notion d'assurance : le cas du Bénin et de la Mauritanie : Solidarity like means of compensation for damage in Africa to the concept of insurance : the case of Benin and Mauritania",
+      "author": "Kotoko, Louis rodrigue",
+      "university": "Normandie",
+      "sourceUrl": "https://theses.fr/2017NORMC028;"
+    },
+    {
+      "title": "La rationalisation des intégrations régionales en Afrique de l’Ouest entre l’UEMOA et la CEDEAO : aspects institutionnels et matériels : The rationalization of regional integration in West Africa between WAEMU and ECOWAS : institutional and material aspects",
+      "author": "Ebissayi, Marius Fleuron",
+      "university": "Université de Bordeaux",
+      "sourceUrl": "https://theses.fr/2022BORD0432;"
+    },
+    {
+      "title": "Digitalization of bank and finance in Africa : Digitalisation et développement économique en Afrique",
+      "author": "Kere, Safilidin",
+      "university": "Université de Bordeaux",
+      "sourceUrl": "https://theses.fr/2024BORD0128;"
+    },
+    {
+      "title": "Essai sur la fonction constituante des cours constitutionnelles d'Afrique noire francophone : les exemples du Bénin, de la Côte d'ivoire, du Gabon, du Niger et du Sénégal : Essay on the constituent function of constitutional courts of french-speaking sub-saharan Africa : examples of Benin, Côte d'Ivoire, Gabon, Niger and Senegal",
+      "author": "Odjaga, Carlos",
+      "university": "Université de Lorraine",
+      "sourceUrl": "https://theses.fr/2021LORR0304;"
+    },
+    {
+      "title": "Les aspects juridiques de l'embryon humain en Afrique : The legal aspects of the human embryo in Africa",
+      "author": "Korbeogo, Kiss-Wede-Sida Ida Raïssa",
+      "university": "Université Paris-Est",
+      "sourceUrl": "https://theses.fr/2022PESC0010;"
+    },
+    {
+      "title": "La problématique de la légitimité du pouvoir politique en Afrique de l'Ouest : méthodes et mécanismes de conservation et de consolidation du pouvoir politique : The issue of the legitimacy of political power in West Africa : methods and mechanisms for the conservation and consolidation of political power",
+      "author": "Diop, Birama",
+      "university": "Université Paris Cité",
+      "sourceUrl": "https://theses.fr/2021UNIP7146;"
+    },
+    {
+      "title": "Deciphering Plasmodium vivax invasion pathway(s) in Duffy-negative patients : Mécanisme(s) d'invasion de Plasmodium vivax chez les patients Duffy-négatifs",
+      "author": "Bouyssou, Isabelle",
+      "university": "Sorbonne université",
+      "sourceUrl": "https://theses.fr/2023SORUS180;"
+    },
+    {
+      "title": "Penser l'instabilité socio-politique en Afrique subsaharienne. Examen des causes et revendication heuristique : la stabilité par le chaos. Les cas illustratifs de la Côte d'Ivoire et du Rwanda : To think sociopolitical instability in subsaharan Africa. Adressing the causes and heuristic claim : stability by chaos. Illustrative cases of Ivory Coast and Rwanda",
+      "author": "Attindéhou, Olivier-Charles Bernardin",
+      "university": "Université de Lyon",
+      "sourceUrl": "https://theses.fr/2017LYSE3053;"
+    },
+    {
+      "title": "Biomasse et stocks de carbone en Afrique centrale: importance de l'allométrie des arbres",
+      "author": "Loubota Panzou, Grâce Jopaul",
+      "university": "Université de Liège",
+      "sourceUrl": "https://orbi.uliege.be/handle/2268/229349"
+    },
+    {
+      "title": "Association of HBV variability and Aflatoxin B1 exposure on liver disease in West Africa : Association de la variabilité du virus de l'Hépatite B et de l'exposition à l'Aflatoxine B1 dans la maladie hépatique en Afrique de l'Ouest",
+      "author": "Cohen, Damien",
+      "university": "Université de Lyon",
+      "sourceUrl": "https://theses.fr/2020LYSE1259;"
+    },
+    {
+      "title": "Cash transfers, employment and informality in South Africa : Transferts monétaires et emploi dans le secteur informel en Afrique du Sud",
+      "author": "Tondini, Alessandro",
+      "university": "Université Paris Panthéon-Sorbonne",
+      "sourceUrl": "https://theses.fr/2019PA01E014;"
+    },
+    {
+      "title": "Genetic diversity and structure of the superabundant whitefly populations, vectors of viruses causing diseases of cassava in three East African countries (Malawi, Tanzania, and Uganda) : Diversité et structuration génétique des populations émergentes d’aleurodes vecteurs de maladies sur manioc en Afrique de l’Est (Malawi, Tanzanie, et Uganda)",
+      "author": "Ally, Hadija Mussa",
+      "university": "Université de la Réunion",
+      "sourceUrl": "https://theses.fr/2019LARE0012;"
+    },
+    {
+      "title": "Mariage et bien-être de l'épouse en Afrique de l'Ouest : Mariage et bien-être de l'épouse en Afrique de l'Ouest",
+      "author": "Hotte, Rozenn",
+      "university": "Paris Sciences et Lettres (ComUE)",
+      "sourceUrl": "https://theses.fr/2019PSLEH001;"
+    },
+    {
+      "title": "Le contrôle de l’exécutif dans la création de l’Etat de droit en Afrique francophone : The Control of the executive in the creation of the rule of law in French Africa",
+      "author": "Thiam, Khadim",
+      "university": "Université de Bordeaux",
+      "sourceUrl": "https://theses.fr/2018BORD0321;"
+    },
+    {
+      "title": "Conditionnalité politique de l'aide publique au développement des partenaires occidentaux à l'Afrique : analyse des actions francaises en Afrique subsaharienne. : Political conditionality of public aid to the development of Western partners in Africa : analysis of French actions in sub-Saharan Africa",
+      "author": "Sadio, Adama",
+      "university": "Normandie; Université Cheikh Anta Diop (Dakar, Sénégal ; 1957-....)",
+      "sourceUrl": "https://theses.fr/2019NORMR020;"
+    },
+    {
+      "title": "Le développement de l’énergie solaire en Afrique subsaharienne : une réponse réaliste au défi énergétique de l’urbanisation ?",
+      "author": "Fall, Tabara",
+      "university": "Université de Sherbrooke",
+      "sourceUrl": "http://hdl.handle.net/11143/20588"
+    },
+    {
+      "title": "Active tectonics, crustal deformation and seismotectonic background for a realistic seismic hazard assessment in southern Africa : Tectonique active, déformation crustale et contexte sismotectonique pour une évaluation réaliste des risques sismiques en Afrique australe",
+      "author": "Mulabisana, Thifhelimbilu Faith",
+      "university": "Strasbourg; Nelson Mandela University",
+      "sourceUrl": "https://theses.fr/2022STRAH013;"
+    },
+    {
+      "title": "L'État et les coutumes au Cameroun des origines à la constitution révisée de 1996 : contribution à une théorie pluraliste du droit en Afrique noire postcoloniale : The State and customs in Cameroon from the origins to the revised constitution of 1996 : contribution to the pluralist theory in postcolonial black Africa",
+      "author": "Moubeke A Mboussi, Philémon",
+      "university": "Aix Marseille Université",
+      "sourceUrl": "https://theses.fr/2021AIXM0042;"
+    },
+    {
+      "title": "Apport potentiel des mesures de pluie par liens micro-ondes commerciaux pour l'hydrologie urbaine en Afrique : Potential interest of Rainfall estimation from Commercial Microwave Links for urban hydrology in Africa",
+      "author": "Turko, Maxime",
+      "university": "Université Toulouse III – Paul Sabatier",
+      "sourceUrl": "https://theses.fr/2020TOU30223;"
+    },
+    {
+      "title": "La Cour africaine des droits de l'homme et des peuples : d'une juridiction ordinaire de garantie des droits fondamentaux à une Cour régionale sui generis : The African Court on human and people’s rights : from an ordinary Court of fundamental rights protection to a regional sui generis Court",
+      "author": "Tidjani, Amidou Issiaka",
+      "university": "Paris 8",
+      "sourceUrl": "https://theses.fr/2019PA080043;"
+    },
+    {
+      "title": "La politique culturelle de la République populaire de Chine en Afrique Subsaharienne francophone de la conférence de Bandung à 2015 : soixante ans d'instrumentalisation de la culture : The cultural policy of the People's Republic of China in francophone sub-Saharan Africa from the Bandung conference to 2015 : sixty years of instrumentalization of culture",
+      "author": "Ponthus, Laure",
+      "university": "Université de Lyon",
+      "sourceUrl": "https://theses.fr/2017LYSE3048;"
+    },
+    {
+      "title": "Stratégies de communication pour la lutte contre le VIH/SIDA en Afrique Subsaharienne : le cas de la République du Bénin : Communication strategies for the fight against HIV/AIDS in sub-Saharan Africa : the case of the Republic of Benin",
+      "author": "Kassa Gazard, Agnes",
+      "university": "Aix Marseille Université",
+      "sourceUrl": "https://theses.fr/2017AIXM0158;"
+    },
+    {
+      "title": "Les performances scolaires en Afrique australe et orientale : disparités régionales et facteurs déterminants : School performance in Southern and Eastern Africa : regional disparities and determinants",
+      "author": "Dieng, Abou Moussa",
+      "university": "Toulon",
+      "sourceUrl": "https://theses.fr/2017TOUL2002;"
+    },
+    {
+      "title": "L'ONU et la promotion des droits de l'homme en Afrique : Le cas de l'Αfrique subsaharienne francοphοne. : UNO and the promotion of the human rights in Africa : The case of French-speaking sub-Saharan Africa.",
+      "author": "Moukoko, Habib",
+      "university": "Normandie",
+      "sourceUrl": "https://theses.fr/2017NORMC003;"
+    },
+    {
+      "title": "Pantoea spp : une nouvelle menace bactérienne pour la production rizicole en Afrique subsaharienne : Pantoea spp : a new bacterial threat to rice production in sub-Saharan Africa",
+      "author": "Kini, Kossi",
+      "university": "Montpellier; AfricaRice (Abidjan)",
+      "sourceUrl": "https://theses.fr/2018MONTG015;"
+    },
+    {
+      "title": "Quêtes identitaires et linguistiques dans l'espace francophone multipolaire africain. Le cas de la Tanzanie en Afrique de l'Est : Linguistic and identity quests in the multipolar African French-speaking environment. The case of Tanzania in East Africa",
+      "author": "Delabie, Anaïs",
+      "university": "Normandie",
+      "sourceUrl": "https://theses.fr/2021NORMR037;"
+    },
+    {
+      "title": "Essai sur une théorie générale des catastrophes aériennes en Afrique centrale : Essay on a general theory of the airline disasters in Central Africa",
+      "author": "Afouba Tanga, Arlette Christine",
+      "university": "Université Paris Panthéon-Sorbonne",
+      "sourceUrl": "https://theses.fr/2017PA01D073;"
+    },
+    {
+      "title": "Etude qualitative des facteurs socio-économiques et familiaux du processus de stigmatisation dans la démence en Afrique Centrale : Qualitative study of socio-economic and family factors in the stigmatization process in dementia in sub-Saharan Africa",
+      "author": "Kehoua, Gilles",
+      "university": "Limoges",
+      "sourceUrl": "https://theses.fr/2017LIMO0100;"
+    },
+    {
+      "title": "Pauvreté, croissance économique et défis de gouvernance en Afrique subsaharienne : Poverty, economic growth and governance challanges in Sub-saharian Africa",
+      "author": "Tabo, Symphorien Ndang",
+      "university": "Université François-Rabelais de Tours",
+      "sourceUrl": "https://theses.fr/2021TOUR1007;"
+    },
+    {
+      "title": "Intégration et généralisation des stratégies du type “Dépistage et traitement universels du VIH” en Afrique sub-saharienne : Exemple de l’essai ANRS 12249 TasP : Integration and generalization of “Universal Test and Treat” strategies for HIV in sub-Saharan Africa : The ANRS 12249 TasP Trial and beyond",
+      "author": "Perriat, Delphine",
+      "university": "Université de Bordeaux",
+      "sourceUrl": "https://theses.fr/2017BORD0872;"
+    },
+    {
+      "title": "Trois essais sur l'exploitation industrielle des ressources naturelles en Afrique : Three Essays on the Industrial Exploitation of Natural Resources in Africa",
+      "author": "Hu, Irène",
+      "university": "Université Paris Panthéon-Sorbonne",
+      "sourceUrl": "https://theses.fr/2023PA01E005;"
+    },
+    {
+      "title": "Démographie et santé des jumeaux en Afrique subsaharienne : Demography and health of twins births in sub Saharan Africa",
+      "author": "Ouedraogo, Adama",
+      "university": "Université Paris Panthéon-Sorbonne",
+      "sourceUrl": "https://theses.fr/2020PA01H016;"
+    },
+    {
+      "title": "Attribution et prévision des modulations de la mousson ouest-africaine à l’échelle de temps décennale : Attribution and prediction of West African monsoon modulations at the decadal time scale",
+      "author": "Ndiaye, Cassien Diabe",
+      "university": "Sorbonne université; Université Cheikh Anta Diop (Dakar, Sénégal ; 1957-....)",
+      "sourceUrl": "https://theses.fr/2023SORUS327;"
+    },
+    {
+      "title": "Vers l'élimination de la transmission mère-enfant de l'hépatite B en Afrique de l'Ouest : une analyse combinant modélisation et évaluation économique : Towards the elimination of mother-to-child transmission of hepatitis B in West Africa : an analysis combining modeling and economic evaluation",
+      "author": "Gosset, Andréa",
+      "university": "Aix Marseille Université",
+      "sourceUrl": "https://theses.fr/2024AIXM0201;"
+    },
+    {
+      "title": "Démembrement génétique des Dystrophies Rétiniennes et Neuropathies Optiques Héréditaires au Maroc et en Afrique du Nord : spectre Clinique et Génétique en Afrique du Nord : analyse de 5 Gènes (ABCA4, CRB1, PDE6B, TTLL5 et ND4) chez 6 familles Marocaines : Genetic dismemberment of Retinal Dystrophies and Hereditary Optic Neuropathies in Morocco and North Africa : Clinical and Genetic spectrum in North Africa : analysis of 5 Genes (ABCA4, CRB1, PDE6B, TTLL5 and ND4) in 6 Moroccan families",
+      "author": "Bouzidi, Aymane",
+      "university": "Angers; Université de Chouaib Doukkali (MAROC)",
+      "sourceUrl": "https://theses.fr/2022ANGE0024;"
+    },
+    {
+      "title": "Résistance du maïs à la chenille légionnaire d'automne (Spodoptera frugiperda) en Afrique : Resistance of maize to fall armyworm (Spodoptera frugiperda) in Africa",
+      "author": "Nuambote Yobila, Ovide",
+      "university": "université Paris-Saclay",
+      "sourceUrl": "https://theses.fr/2023UPASB037;"
+    },
+    {
+      "title": "Prise en charge de la douleur du cancer en Afrique francophone : Etat des lieux et recherche des facteurs limitants l'accès et le traitement aux opioïdes analgésiques : Cancer Pain Management in French-Speaking African Countries : Assessment of the Current Situation and Research into Factors Limiting Treatment and Access to Analgesic Drugs",
+      "author": "Hadjiat, Yacine",
+      "university": "université Paris-Saclay",
+      "sourceUrl": "https://theses.fr/2024UPASR035;"
+    },
+    {
+      "title": "L'autonomie financière des collectivités territoriales en Afrique noire francophone à travers les modes de financement : cas du Togo, Bénin et du Burkina Faso : Financial autonomy of local government in french-speaking black Africa : stakes and developments.",
+      "author": "Mandjafai, Koudjo",
+      "university": "Université de Montpellier (2022-....)",
+      "sourceUrl": "https://theses.fr/2024UMOND029;"
+    },
+    {
+      "title": "Étude de la résistance à l’association dihydroartémisinine-pipéraquine (Eurartesim) utilisée dans le traitement de première intention du paludisme simple à Plasmodium falciparum. : Resistance to the dihydroartemisinin-piperaquine combination (Eurartesim) used in the first-line treatment of uncomplicated Plasmodium falciparum malaria.",
+      "author": "Delandre, Océane",
+      "university": "Aix Marseille Université",
+      "sourceUrl": "https://theses.fr/2024AIXM0098;"
+    },
+    {
+      "title": "A Few Essays on the Political Economy of Inequalities in Africa and China : Quelques essais sur l'économie politique des inégalités en Afrique et en Chine",
+      "author": "Mo, Zhexun",
+      "university": "Paris, EHESS",
+      "sourceUrl": "https://theses.fr/2024EHES0057;"
+    },
+    {
+      "title": "Les stratégies des anciennes puissances coloniales dans la résolution des conflits armés internes en Afrique après 1994 : Sierra Leone et Côte d’Ivoire : Strategies of Former Colonial Powers in the Resolution of Internal Armed Conflicts in Africa after 1994 : Sierra Leone and Côte d’Ivoire",
+      "author": "Tawa, Netton Prince",
+      "university": "Paris 2; Université Félix Houphouët-Boigny (Abidjan, Côte d'Ivoire)",
+      "sourceUrl": "https://theses.fr/2018PA020048;"
+    },
+    {
+      "title": "Evaluation de la stratégie 'Dépister et Traiter' dans l'infection par le VIH chez des hommes ayant des relations sexuelles avec d'autres hommes en Afrique de l'ouest : Evaluation of the HIV 'Test and Treat' strategy in Men who have Sex with Men in West Africa.",
+      "author": "Dah, Ter Tiero Elias",
+      "university": "Montpellier",
+      "sourceUrl": "https://theses.fr/2021MONTT032;"
+    },
+    {
+      "title": "Helminthosporiose du riz en Afrique de l'Ouest : identification des espèces responsables et diversité génétique de Bipolaris oryzae et Exserohilum rostratum : Brown spot of rice in West Africa : identification of causal species and genetic diversity of Bipolaris oryzae et Exserohilum rostratum",
+      "author": "Kabore, Kouka Hilaire",
+      "university": "université Paris-Saclay",
+      "sourceUrl": "https://theses.fr/2022UPASB035;"
+    },
+    {
+      "title": "La recherche opérationnelle sur les maladies infectieuses à potentiel épidémique et menaçant en Afrique Sub-saharienne : Operational research on emerging infectious diseases in Sub-saharan Africa",
+      "author": "Jaspard, Marie",
+      "university": "Université de Bordeaux",
+      "sourceUrl": "https://theses.fr/2022BORD0243;"
+    },
+    {
+      "title": "Enjeux politiques et représentations esthétiques : une approche comparée des minorités indigènes en Afrique et en Amérique hispanique aux XX-XXI siècles : Politicals issues and aesthetics representations : a comparative approach of indigenous minorities in Africa and Hispanic America in the XX-XXI centuries",
+      "author": "Dikegue, Claude",
+      "university": "Saint-Etienne, Université Jean Monnet (2025-....)",
+      "sourceUrl": "https://theses.fr/2025UJMO0075;"
+    },
+    {
+      "title": "Evaluation de l'accès au diagnostic VIH chez les enfants exposés en Afrique Subsaharienne : Evaluation of the access to HIV diagnosis among HIV exposed children in Subsaharan Africa",
+      "author": "Tassembedo, Souleymane",
+      "university": "Université de Montpellier (2022-....)",
+      "sourceUrl": "https://theses.fr/2023UMONT075;"
+    },
+    {
+      "title": "La résolution des crises internationales : perspective universelle du comportement des États africains",
+      "author": "Camara, Papa T. M.",
+      "university": "Université Laval",
+      "sourceUrl": "http://hdl.handle.net/20.500.11794/68771"
+    },
+    {
+      "title": "La mission de l'eglise dans la moralite et spiritualite des migrants dans la ville de Johannesburg: cas de l'eglise Baptiste de Rosettenville: The church's mission in the morality and spirituality of the immigrants in Johannesburg: Rosettenville Baptist Church as a case study",
+      "author": "Monzambe, Djuka Jean Djicain",
+      "university": "University of South Africa",
+      "sourceUrl": "http://hdl.handle.net/10500/30228"
+    },
+    {
+      "title": "Remote impacts of the mid-Holocene Green Sahara on global climate",
+      "author": "Tiwari, Shivangi",
+      "university": "Université du Québec à Montréal",
+      "sourceUrl": "http://archipel.uqam.ca/18521/1/D4801.pdf"
+    },
+    {
+      "title": "L’intégration des communautés locales dans les stratégies de conservation : une solution pour l’avenir des quatre grands primates africains ?",
+      "author": "Vachon, Caroline",
+      "university": "Université de Sherbrooke",
+      "sourceUrl": "http://hdl.handle.net/11143/17213"
+    },
+    {
+      "title": "Double défi de l'industrie minière en Afrique subsaharienne : droits humains et changements climatiques",
+      "author": "Komassi, Awovi Akpédzé",
+      "university": "Université de Sherbrooke",
+      "sourceUrl": "http://hdl.handle.net/11143/10566"
+    },
+    {
+      "title": "Agriculture circulaire en Afrique de l’Ouest : analyse de la dépendance du secteur agricole aux engrais et propositions des stratégies de circularité",
+      "author": "Djalogue, Anadh Kansame",
+      "university": "Université de Sherbrooke",
+      "sourceUrl": "https://doi.org/10.71892/11143/951"
+    },
+    {
+      "title": "La transition énergétique en Afrique du Nord : étude comparative de la situation énergétique au Maroc, en Algérie, en Tunisie et en Libye",
+      "author": "Bouallegue, Jila-Wided",
+      "university": "Université de Sherbrooke",
+      "sourceUrl": "https://doi.org/10.71892/11143/1107"
+    },
+    {
+      "title": "Opérations de paix, action humanitaire et sécurité humaine en Afrique francophone : la dialectique de l’urgence et du développement pérenne en République centre-africaine, République démocratique du Congo et au Mali : Peace operations, humanitarian action and human security in French-speaking Africa : The dialectic of emergency and sustainable development in the Central African Republic, the Democratic Republic of the Congo and in Mali",
+      "author": "Eyebe Awono, Philippe",
+      "university": "Université de Lyon",
+      "sourceUrl": "https://theses.fr/2021LYSE3027;"
+    },
+    {
+      "title": "Les chefferies traditionnelles africaines face à la dynamique des réformes territoriales : contribution à l'étude des processus de décentralisation : The traditional chieftaincies face of the territorial reforms : contribute to the study of the process of decentralization",
+      "author": "Adiki Tovenim, Koko",
+      "university": "Perpignan",
+      "sourceUrl": "https://theses.fr/2017PERP0053;"
+    },
+    {
+      "title": "La juridictionnalisation des élections nationales en Afrique noire francophone : les exemples du Bénin, de la Côte d'Ivoire et du Sénégal : analyse politico-juridique : Jurisdictionalisation of national elections in French-speaking black Africa : examples from Benin, Ivory Caost and Senegal : political-legal analysis",
+      "author": "Sène, Mamadou",
+      "university": "Université Toulouse I – Capitole",
+      "sourceUrl": "https://theses.fr/2017TOU10011;"
+    },
+    {
+      "title": "Local vs European languages in post-colonial African education systems : Langues locales vs langues européennes dans les systèmes d’enseignements en Afrique depuis les indépendances",
+      "author": "Col, Mathilde",
+      "university": "Université de Bordeaux",
+      "sourceUrl": "https://theses.fr/2025BORD0480;"
+    },
+    {
+      "title": "Agriculture circulaire en Afrique de l’Ouest : analyse de la dépendance du secteur agricole aux engrais et propositions des stratégies de circularité",
+      "author": "Djalogue, Anadh Kansame",
+      "university": "Université de Sherbrooke",
+      "sourceUrl": "http://hdl.handle.net/11143/23088"
+    },
+    {
+      "title": "La transition énergétique en Afrique du Nord : étude comparative de la situation énergétique au Maroc, en Algérie, en Tunisie et en Libye",
+      "author": "Bouallegue, Jila-Wided",
+      "university": "Université de Sherbrooke",
+      "sourceUrl": "http://hdl.handle.net/11143/23379"
+    },
+    {
+      "title": "Justice sociale et bonne gouvernance en Afrique noire (Côte-d’Ivoire – Ghana) : une lecture anthropologique de John Rawls et d’Amartya Kumar Sen : Social justice and good governance in Sub-Saharan Africa (Côte d’Ivoire – Ghana) : an anthropological reading of John Rawls and Amartya Kumar Sen",
+      "author": "Yacouba, Fofana",
+      "university": "Université de Strasbourg",
+      "sourceUrl": "https://theses.fr/2025STRAG030;"
+    },
+    {
+      "title": "Étude prospective de l'avenir de la langue française en Afrique subsaharienne francophone à l'horizon 2030 : Prospective study of the future of the french language in french-speaking sub-Saharan Africa by 2030",
+      "author": "Arrif, Youssef",
+      "university": "Bourgogne Franche-Comté",
+      "sourceUrl": "https://theses.fr/2022UBFCC035;"
+    },
+    {
+      "title": "Towards a multidimensional indicator of the welfare of African Savanna elephants (Loxodonta africana) : Vers un indicateur multidimensionnel du bien-être des éléphants d'Afrique de Savane (Loxodonta africana)",
+      "author": "Lacomme, Laura",
+      "university": "Université Claude Bernard – Lyon I",
+      "sourceUrl": "https://theses.fr/2024LYO10121;"
+    },
+    {
+      "title": "Shocks, pro-sociality, and information : Three essays on agricultural development and farmers' behavior in Sub-Saharan Africa : Chocs, pro-socialité et information : Trois essais sur le développement agricole et le comportement des agriculteurs en Afrique Subsaharienne",
+      "author": "Fall, Fatou",
+      "university": "Université Paris sciences et lettres",
+      "sourceUrl": "https://theses.fr/2024UPSLD032;"
+    },
+    {
+      "title": "Rôle des hommes dans la planification familiale en Afrique subsaharienne : Men’s role in family planning in Sub-Saharan Africa",
+      "author": "Sedouh, Kokou Romaric",
+      "university": "Université de Bordeaux",
+      "sourceUrl": "https://theses.fr/2024BORD0452;"
+    },
+    {
+      "title": "Les nouveaux lieux d'expériences spirituelles : enjeux pour l'Église catholique en Afrique : le cas du Cameroun : New places of spiritual expériences : challenges for the Catholic Church in Africa : the case of Cameroon",
+      "author": "Biada Yeye, Christine",
+      "university": "Université de Strasbourg",
+      "sourceUrl": "https://theses.fr/2025STRAK006;"
+    },
+    {
+      "title": "Assessing the impact of trade liberalization on unemployment, food security and energy poverty in Sub-Saharan Africa : a three-essay approach : Évaluer l’impact de la libéralisation du commerce sur le chômage, la sécurité alimentaire et la pauvreté énergétique en Afrique Subsaharienne : une approche en trois essais",
+      "author": "Zahonogo, Windbeneti Arnaud",
+      "university": "Université d'Orléans",
+      "sourceUrl": "https://theses.fr/2025ORLE1006;"
+    },
+    {
+      "title": "Financement de l'entrepreneuriat féminin en Afrique subsaharienne : cas des femmes entrepreneures du Togo : Financing Women's Entrepreneurship in Sub-Saharan Africa : the Case of Women Entrepreneurs in Togo",
+      "author": "Yarbonme, Dabekoa",
+      "university": "Université de Lille (2022-....)",
+      "sourceUrl": "https://theses.fr/2025ULILD024;"
     }
   ]
 }
