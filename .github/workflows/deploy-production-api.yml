@@ -1,0 +1,97 @@
+name: Deploy Production API
+
+on:
+  workflow_run:
+    workflows: ["Production Database Migrations"]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo (workflow context only)
+        uses: actions/checkout@v3
+
+      - name: Setup SSH authentication
+        run: |
+          mkdir -p ~/.ssh
+
+          # Inject SSH private key (GitHub Actions -> VPS)
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/github_to_server
+          chmod 600 ~/.ssh/github_to_server
+
+          # Trust server (avoid MITM)
+          ssh-keyscan -H 91.134.143.115 >> ~/.ssh/known_hosts
+
+          # SSH config
+          cat <<EOF > ~/.ssh/config
+          Host ovh-cloudpanel-server
+            HostName 91.134.143.115
+            User pole-g-api-plagix
+            IdentityFile ~/.ssh/github_to_server
+            IdentitiesOnly yes
+          EOF
+
+          chmod 600 ~/.ssh/config
+
+      - name: Deploy API on server
+        run: |
+          ssh ovh-cloudpanel-server bash -s << 'ENDSSH'
+            set -e
+
+            # Injection directe des binaires Node/NPM/PM2 dans le PATH
+            export PATH="/home/pole-g-api-plagix/.nvm/versions/node/v22.22.3/bin:$PATH"
+            echo "Node: $(node -v)"
+            echo "NPM: $(npm -v)"
+
+            APP_DIR="/home/pole-g-api-plagix/htdocs/api.plagix.pole-g.org"
+            SHARED_DIR="/home/pole-g-api-plagix/shared"
+            REPO="git@github.com:hicodingx/plagix-backend.git"
+            BRANCH="main"
+            APP_NAME="pole-g-api-plagix"
+
+            cd "$APP_DIR"
+
+            git config --global --add safe.directory "$APP_DIR"
+
+            if [ ! -d .git ]; then
+              echo "First deploy safe mode"
+              git clone -b "$BRANCH" "$REPO" .
+            else
+              echo "Updating code safely"
+              git fetch origin
+              git reset --hard origin/$BRANCH
+              git clean -fd
+            fi
+
+            # Gestion du fichier .env de production
+            if [ -f "$SHARED_DIR/.env" ]; then
+              echo "Injecting production .env file"
+              cp "$SHARED_DIR/.env" "$APP_DIR/.env"
+            else
+              echo "ERROR: Production .env file not found in $SHARED_DIR"
+              exit 1
+            fi
+
+            echo "Installing dependencies"
+            npm ci
+
+            echo "Building API"
+            npm run build
+
+            echo "Restarting PM2"
+            if pm2 describe "$APP_NAME" > /dev/null 2>&1; then
+              pm2 reload "$APP_NAME" --update-env
+            else
+              pm2 start dist/index.js --name "$APP_NAME" -- -p 5002
+            fi
+
+            pm2 save
+
+            echo "API deployment successful"
+          ENDSSH

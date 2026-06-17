@@ -1,0 +1,46 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model ScrapingSource {
+  id             String         @id @default(uuid())
+  name           String
+  rootUrl        String         @unique
+  status         ScrapingStatus @default(ACTIVE)
+  lastRunAt      DateTime?
+  collectedCount Int            @default(0)
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+
+  documents CollectedDocument[]
+
+  @@map("scraping_sources")
+}
+
+model CollectedDocument {
+  id              String    @id @default(uuid())
+  title           String
+  author          String?
+  university      String?
+  publicationDate DateTime?
+  content         String?
+  sourceUrl       String
+  signature       String    @unique
+  sourceId        String
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  source ScrapingSource @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+
+  @@map("collected_documents")
+}
+
+enum ScrapingStatus {
+  ACTIVE
+  INACTIVE
+}
