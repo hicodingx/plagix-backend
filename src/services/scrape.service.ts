@@ -32,7 +32,6 @@ export async function fetchAndParse(query: string): Promise<OatdThesis[]> {
   // Verrouillage de la démo sur le mot-clé unique
   const targetQuery = "afrique";
 
-  // 1. Initialisation ou lecture du fichier tampon
   let buffer: BufferData = {
     query: targetQuery,
     currentStart: 1,
@@ -48,15 +47,21 @@ export async function fetchAndParse(query: string): Promise<OatdThesis[]> {
     }
   }
 
-  // Détermination de l'état du stock local
   const needRefill = buffer.thesesLeft.length === 0;
 
-  // Si le réservoir est vide et qu'on a déjà consommé la première page, on avance l'index de l'infra
+
   if (needRefill && buffer.currentStart !== 1) {
     buffer.currentStart += 99;
   }
 
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    headless: true,
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+    ],
+  });
   const context = await browser.newContext({
     userAgent:
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -125,11 +130,11 @@ export async function fetchAndParse(query: string): Promise<OatdThesis[]> {
       // 1. Extraction du titre (Reste inchangé et fonctionnel)
       const title = $(element).find(".etdTitle span").text().trim();
 
-      // 🔥 CORRECTION AUTEUR : On cherche la balise <cite>, et on prend le <span> juste avant elle
+      //  CORRECTION AUTEUR : On cherche la balise <cite>, et on prend le <span> juste avant elle
       const author =
         $(element).find(".etdTitle").prev("span").text().trim() || "Inconnu";
 
-      // 🔥 CORRECTION UNIVERSITÉ : On cherche d'abord le publisher itemprop,
+      //  CORRECTION UNIVERSITÉ : On cherche d'abord le publisher itemprop,
       // sinon on se rabat sur le texte de la div .cover
       let university = $(element)
         .find("span[itemprop='publisher']")
@@ -163,7 +168,6 @@ export async function fetchAndParse(query: string): Promise<OatdThesis[]> {
   const finalTake = Math.min(structuralRandom, buffer.thesesLeft.length);
   const waveToDeliver = buffer.thesesLeft.splice(0, finalTake);
 
-  // 6. MISE À JOUR DU DOSSIER TAMPON PHYSIQUE
   fs.writeFileSync(BUFFER_FILE, JSON.stringify(buffer, null, 2), "utf-8");
 
   console.log(
