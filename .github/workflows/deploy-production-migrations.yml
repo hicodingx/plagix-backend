@@ -80,17 +80,6 @@ jobs:
             echo "Installing dependencies"
             npm ci
 
-            echo "Checking Playwright Chromium cache on VPS..."
-            if [ -d "$HOME/.cache/ms-playwright" ] && [ "$(ls -A $HOME/.cache/ms-playwright 2>/dev/null)" ]; then
-              echo "Chromium binary found in VPS cache. Skipping download."
-            else
-              echo "Chromium binary missing. Downloading via Playwright..."
-              npx playwright install chromium
-            fi
-
-            echo "Ensuring Linux system dependencies are met..."
-            npx playwright install-deps chromium || echo "Warning: System deps setup skipped"
-
             echo "Generating Prisma client"
             npx prisma generate
 
