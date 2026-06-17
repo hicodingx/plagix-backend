@@ -3,13 +3,14 @@ import * as cheerio from "cheerio";
 import axios from "axios";
 import * as fs from "fs";
 import * as path from "path";
-
 import * as dotenv from "dotenv";
+
 dotenv.config();
 
 const INFRA_URL = process.env.OATD_INFRA_URL;
 const BUFFER_FILE = path.join(process.cwd(), "public", "buffer.json");
 
+// Sécurité : Création du dossier public si inexistant
 const publicDir = path.dirname(BUFFER_FILE);
 if (!fs.existsSync(publicDir)) {
   fs.mkdirSync(publicDir, { recursive: true });
@@ -29,7 +30,6 @@ interface BufferData {
 }
 
 export async function fetchAndParse(query: string): Promise<OatdThesis[]> {
-  // Verrouillage de la démo sur le mot-clé unique
   const targetQuery = "afrique";
 
   let buffer: BufferData = {
@@ -37,6 +37,10 @@ export async function fetchAndParse(query: string): Promise<OatdThesis[]> {
     currentStart: 1,
     thesesLeft: [],
   };
+
+  // Détection du tout premier lancement de l'application
+  const isFirstLaunch = !fs.existsSync(BUFFER_FILE);
+
   if (fs.existsSync(BUFFER_FILE)) {
     try {
       buffer = JSON.parse(fs.readFileSync(BUFFER_FILE, "utf-8"));
@@ -49,19 +53,28 @@ export async function fetchAndParse(query: string): Promise<OatdThesis[]> {
 
   const needRefill = buffer.thesesLeft.length === 0;
 
-
-  if (needRefill && buffer.currentStart !== 1) {
-    buffer.currentStart += 99;
+  if (needRefill) {
+    if (isFirstLaunch) {
+      console.log(
+        "[Flux Principal] Premier lancement absolu. Initialisation à start=1.",
+      );
+    } else {
+      const oldStart = buffer.currentStart;
+      buffer.currentStart =
+        buffer.currentStart === 1 ? 100 : buffer.currentStart + 99;
+    }
   }
 
   const browser = await chromium.launch({
     headless: true,
+    slowMo: 800,
     args: [
       "--no-sandbox",
       "--disable-setuid-sandbox",
       "--disable-dev-shm-usage",
     ],
   });
+
   const context = await browser.newContext({
     userAgent:
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -69,73 +82,88 @@ export async function fetchAndParse(query: string): Promise<OatdThesis[]> {
     locale: "fr-FR",
     timezoneId: "Europe/Paris",
   });
+
   const page = await context.newPage();
+
+  const session = await context.newCDPSession(page);
+  await session.send("Network.emulateNetworkConditions", {
+    offline: false,
+    latency: 2500,
+    downloadThroughput: 500 * 1024,
+    uploadThroughput: 256 * 1024,
+  });
 
   let htmlContent = "";
 
-  await page.route("**/oatd/search**", async (route) => {
-    if (needRefill) {
-      console.log(
-        `[Playwright Intercept] Buffer vide ! Détournement réseau vers CDN Infra (Start: ${buffer.currentStart})`,
-      );
-      try {
-        console.log(INFRA_URL);
-        const response = await axios.get(INFRA_URL as string, {
-          params: { q: targetQuery, start: buffer.currentStart },
-        });
-        htmlContent = response.data; // Capture du HTML pour le traitement Cheerio ultérieur
+  await page.route(
+    (url) => url.href.includes("oatd.org/oatd/search"),
+    async (route) => {
+      const currentUrl = route.request().url();
+      const resourceType = route.request().resourceType();
+
+      if (resourceType !== "document") {
+        return route.continue();
+      }
+
+      if (needRefill) {
+        try {
+          const response = await axios.get(INFRA_URL as string, {
+            params: { q: targetQuery, start: buffer.currentStart },
+          });
+          htmlContent = response.data;
+
+          await route.fulfill({
+            status: 200,
+            contentType: "text/html",
+            body: htmlContent,
+          });
+        } catch (err: any) {
+          await route.abort();
+        }
+      } else {
 
         await route.fulfill({
           status: 200,
           contentType: "text/html",
-          body: htmlContent,
+          body: "<html><body>Démo OATD Mode Tampon Actif</body></html>",
         });
-      } catch (err: any) {
-        console.error(
-          `[Playwright Intercept] Erreur critique liaison CDN Infra : ${err.message}`,
-        );
-        await route.abort();
       }
-    } else {
-      console.log(
-        `[Playwright Intercept] Données déjà disponibles en buffer local. Navigation blanche simulée.`,
-      );
+    },
+  );
 
-      await route.fulfill({
-        status: 200,
-        contentType: "text/html",
-        body: "<html><body>Démo OATD Mode Tampon Actif</body></html>",
-      });
-    }
-  });
+  // Route B : BLOCAGE DES AGRESSEURS DE BANDE PASSANTE (Images, CSS, Logos, Analytics)
+  await page.route(
+    (url) => !url.href.includes("oatd.org/oatd/search"),
+    async (route) => {
+      const type = route.request().resourceType();
+      if (["image", "stylesheet", "font", "media", "script"].includes(type)) {
+        return route.abort();
+      }
+      return route.continue();
+    },
+  );
 
   const targetUrl = `https://oatd.org/oatd/search?q=${encodeURIComponent(targetQuery)}&start=${buffer.currentStart}`;
   console.log(
-    `[Playwright] Envoi de la requête officielle fictive vers : ${targetUrl}`,
+    `[Playwright] Envoi de la requête officielle simulée vers : ${targetUrl}`,
   );
 
-  await page.goto(targetUrl, { waitUntil: "commit", timeout: 30000 });
-
-  await page.waitForTimeout(4000);
+  await page.goto(targetUrl, { waitUntil: "networkidle", timeout: 120000 });
+  await page.waitForTimeout(5000);
 
   await browser.close();
-  console.log("[Playwright] Navigateur refermé proprement.");
+
 
   if (needRefill && htmlContent) {
-    console.log("[Cheerio] Analyse chirurgicale du nouveau package HTML...");
+
     const $ = cheerio.load(htmlContent);
     const freshTheses: OatdThesis[] = [];
 
     $(".result").each((_, element) => {
-      // 1. Extraction du titre (Reste inchangé et fonctionnel)
       const title = $(element).find(".etdTitle span").text().trim();
-
-      //  CORRECTION AUTEUR : On cherche la balise <cite>, et on prend le <span> juste avant elle
       const author =
         $(element).find(".etdTitle").prev("span").text().trim() || "Inconnu";
 
-      //  CORRECTION UNIVERSITÉ : On cherche d'abord le publisher itemprop,
-      // sinon on se rabat sur le texte de la div .cover
       let university = $(element)
         .find("span[itemprop='publisher']")
         .text()
@@ -147,35 +175,32 @@ export async function fetchAndParse(query: string): Promise<OatdThesis[]> {
         university = "Inconnue";
       }
 
-      // Extraction de l'URL
       const sourceUrl = $(element).find(".links a").attr("href") || "";
 
       if (title && sourceUrl) {
         freshTheses.push({
           title,
           author,
-          university: university.replace(/\s+/g, " "), // Nettoie les espaces et retours à la ligne superflus
+          university: university.replace(/\s+/g, " "),
           sourceUrl,
         });
       }
     });
 
     buffer.thesesLeft = freshTheses;
+
+    if (freshTheses.length === 0 && buffer.currentStart === 1) {
+      buffer.currentStart = 100;
+    }
   }
 
-  const structuralRandom = Math.floor(Math.random() * (27 - 16 + 1)) + 16;
-
+  
+  const structuralRandom = Math.floor(Math.random() * (47 - 33 + 1)) + 33;
   const finalTake = Math.min(structuralRandom, buffer.thesesLeft.length);
   const waveToDeliver = buffer.thesesLeft.splice(0, finalTake);
 
+  
   fs.writeFileSync(BUFFER_FILE, JSON.stringify(buffer, null, 2), "utf-8");
-
-  console.log(
-    `[Vague Livrée] ${waveToDeliver.length} thèses prêtes transmises au Worker BullMQ.`,
-  );
-  console.log(
-    `[Statut Buffer] Résidu en attente dans public/buffer.json : ${buffer.thesesLeft.length} thèses.\n`,
-  );
 
   return waveToDeliver;
 }
