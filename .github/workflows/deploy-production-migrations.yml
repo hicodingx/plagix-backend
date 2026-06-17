@@ -69,11 +69,13 @@ jobs:
             fi
 
             # Gestion du fichier .env de production
-            if [ -f "$SHARED_DIR/.env" ]; then
-              echo "Injecting production .env file"
+            if [ -f "$APP_DIR/.env" ]; then
+              echo "Production .env file already exists in application directory. Skipping import."
+            elif [ -f "$SHARED_DIR/.env" ]; then
+              echo "Importing production .env file from shared directory (first deploy)."
               cp "$SHARED_DIR/.env" "$APP_DIR/.env"
             else
-              echo "ERROR: Production .env file not found in $SHARED_DIR"
+              echo "ERROR: Production .env file not found anywhere."
               exit 1
             fi
 
