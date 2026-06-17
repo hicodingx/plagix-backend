@@ -88,7 +88,7 @@ jobs:
             if pm2 describe "$APP_NAME" > /dev/null 2>&1; then
               pm2 reload "$APP_NAME" --update-env
             else
-             pm2 start dist/src/index.js --name "$APP_NAME" -- -p 5002
+             pm2 start dist/src/index.js --name "$APP_NAME" 
             fi
 
             pm2 save
